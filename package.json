@@ -1,0 +1,20 @@
+{
+  "name": "poc-design-patterns",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "author": "Phelipe Matos <phelipe.matos07@gmail.com>",
+  "description": "Prova de conceito para demonstrar os conceitos por traz do Design Patterns. O desenvolvimento está totalmente em puro TypeScript usando as técnicas de Orientação a Objeto.",
+  "homepage": "https://github.com/phmatos07/poc-design-patterns#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phmatos07/poc-design-patterns.git"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
