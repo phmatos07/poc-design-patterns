@@ -4,7 +4,7 @@ let id01: ID = 111111;
 let id02: ID = 'Lorem ipsum';
 
 // Complex type of alias (Type Aliases com Intersection)
-type User = {
+type UserRegistration = {
   id: number;
   name: string;
   age: number;
@@ -18,7 +18,7 @@ type Car = {
 }
 
 // Intersection
-type Register = User & Car;
+type Register = UserRegistration & Car;
 
 const registerCar: Register[] = [
   {
@@ -31,7 +31,7 @@ const registerCar: Register[] = [
     km: 34.000
   },
   {
-    id: 1,
+    id: 2,
     name: 'Íkaro Matos',
     age: 30,
     model: 'Onix 1.4V',
