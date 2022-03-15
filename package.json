@@ -11,12 +11,13 @@
     "url": "git+https://github.com/phmatos07/poc-design-patterns.git"
   },
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "nodemon dist/index.js",
     "build": "tsc",
     "build:watch": "tsc --watch"
   },
   "dependencies": {},
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "typescript": "^4.6.2"
   }
 }
