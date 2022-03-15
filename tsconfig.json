@@ -62,7 +62,8 @@
     "skipLibCheck": true, /* Pular a verificação de tipo de arquivos de declaração. */
     "forceConsistentCasingInFileNames": true /* Proibir referências com maiúsculas e minúsculas inconsistentes para o mesmo arquivo. */
   },
-  "files": [ /* Especifica uma lista de arquivos permitidos para incluir no programa. Um erro ocorre se qualquer um dos arquivos não puder ser encontrado. */
+  /* Especifica uma lista de arquivos permitidos para incluir no programa. Um erro ocorre se qualquer um dos arquivos não puder ser encontrado. */
+  "files": [
     "src/index.ts"
   ],
   "include": [ /* Especifica um array de nomes de arquivos ou padrões a serem incluídos no programa. Esses nomes de arquivo são resolvidos em relação ao diretório que contém o arquivo tsconfig.json. */
