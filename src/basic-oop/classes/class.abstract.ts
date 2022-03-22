@@ -1,8 +1,11 @@
-export abstract class UserAbstract {
+import { Profile } from './../models/profile.interface';
 
-  protected name!: string;
-  protected age!: number;
-  protected email!: string;
+export abstract class UserAbstract implements Profile {
+
+  id!: string;
+  name!: string;
+  age!: number;
+  email!: string;
   private currentDate!: string;
 
   constructor(name: string, age: number, email: string) {
