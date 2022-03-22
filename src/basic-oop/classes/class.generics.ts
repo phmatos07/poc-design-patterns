@@ -38,7 +38,7 @@ export class UseState<S extends User | string | number = string>  {
     return this._state;
   }
 
-  set state(newSate) {
+  set state(newSate: S) {
     this._state = newSate;
   }
 }
