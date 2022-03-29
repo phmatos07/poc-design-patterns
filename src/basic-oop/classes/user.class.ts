@@ -1,5 +1,5 @@
-import { Profile } from './../models/profile.interface';
-import { UserAbstract } from './class.abstract';
+import { Profile } from '../models/profile.interface';
+import { UserAbstract } from './user.abstract';
 
 export class User extends UserAbstract implements Profile {
 

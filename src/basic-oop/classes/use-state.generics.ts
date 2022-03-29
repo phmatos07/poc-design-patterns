@@ -1,4 +1,4 @@
-import { User } from './../models/user.interface';
+import { User } from '../models/user.interface';
 
 /**
  * @description Classes/funções genéricas são classes que tem um tipo desconhecido (unknown)

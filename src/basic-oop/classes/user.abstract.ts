@@ -1,4 +1,4 @@
-import { Profile } from './../models/profile.interface';
+import { Profile } from '../models/profile.interface';
 
 export abstract class UserAbstract implements Profile {
 
