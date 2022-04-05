@@ -56,7 +56,7 @@
     // "inlineSourceMap": true,                     /* Emita um único arquivo com mapas de origem em vez de ter um arquivo separado. */
     // "inlineSources": true,                       /* Emita a origem junto com os mapas de origem em um único arquivo; requer '--inlineSourceMap' ou '--sourceMap' para ser definido. */
     /* Experimental Options */
-    // "experimentalDecorators": true,              /* Ativa o suporte experimental para decoradores ES7. */
+    "experimentalDecorators": true, /* Ativa o suporte experimental para decoradores ES7. */
     // "emitDecoratorMetadata": true,               /* Ativa o suporte experimental para a emissão de metadados de tipo para decoradores. */
     /* Advanced Options */
     "skipLibCheck": true, /* Pular a verificação de tipo de arquivos de declaração. */
