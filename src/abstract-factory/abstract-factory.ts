@@ -21,7 +21,7 @@ import { PutAbstract } from './model/put-abstract.interface';
  * Ele permite que o mesmo código cliente funcione com produtos diferentes.
  * Você apenas cria uma nova classe fábrica concreta e a passa para o código cliente.
  *
- * @example Exemplo de uso
+ * @example Exemplo Prático:
  * const myCrud01 = new MyCrud01();
  * myCrud01.post();
  * myCrud01.get();
