@@ -1,3 +1,6 @@
+// Adapter Pattern
+// export * from './adapter/index';
+
 // Builder Pattern
 // export * from './builder/index';
 
