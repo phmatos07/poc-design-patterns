@@ -1,2 +1,5 @@
+// Builder Pattern
+// export * from './builder/index';
+
 // Singleton Pattern
-export * from './singleton/index';
+// export * from './singleton/index';
