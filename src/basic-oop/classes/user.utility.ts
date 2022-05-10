@@ -189,6 +189,13 @@ export class UserUtility {
   }
 
   /**
+   * @description Obtendo o tipo de uma propriedade de uma classe typescript usando o operador keyof
+   */
+  getTypeofProperty<T, K extends keyof T>(object: T, key: K) {
+    return typeof object[key];
+  }
+
+  /**
    * @description Método responsável por printar no console o objeto passado conforme a tipagem genérica
    * @param fieldsToUpdate
    */
