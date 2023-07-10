@@ -15,9 +15,8 @@
     "build": "tsc",
     "build:watch": "tsc --watch"
   },
-  "dependencies": {},
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "typescript": "^4.6.2"
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
   }
 }
