@@ -12,12 +12,12 @@
   },
   "scripts": {
     "start": "nodemon dist/index.js",
+    "build:start": "tsc --watch && nodemon dist/index.js",
     "build": "tsc",
     "build:watch": "tsc --watch"
   },
-  "dependencies": {},
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "typescript": "^4.6.2"
+    "nodemon": "^3.1.14",
+    "typescript": "^7.0.2"
   }
 }
