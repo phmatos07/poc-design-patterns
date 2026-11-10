@@ -9,3 +9,6 @@
 
 // Singleton Pattern
 // export * from './singleton/index';
+
+// Strategy Pattern
+// export * from './strategy/index';
